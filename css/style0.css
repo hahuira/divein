@@ -1,0 +1,642 @@
+/*여기어때잘난체*/
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'RixInooAriDuriR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+    color: #27358A;
+    cursor: url(../images/cur-37.png), auto;
+}
+
+
+
+body {
+    font-family: 'LINESeedKR-Bd';
+    font-size: 14px;
+    line-height: 24px;
+    color: #27358A;
+    min-width: 1320px;
+    background-color: #fffbef;
+    cursor: url(../images/cur-36.png), auto;
+
+}
+
+.po {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header {
+    width: 1320px;
+    margin: 10px auto;
+    height: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+#header {
+
+    float: right;
+
+}
+
+#header li {
+    float: left;
+
+}
+
+#header a {
+    font-size: 15px;
+    font-family: 'Fredoka One', cursive;
+}
+
+#header a:hover {
+    color: #dfb0c6;
+}
+
+#nav {
+    width: 1320px;
+    margin: 0 auto;
+    height: 130px;
+}
+.nav li:nth-child(3):hover img {
+    transform: rotateY(360deg);
+}
+
+.nav li:nth-child(3) img {
+    transition: all 1s;
+}
+
+.nav {
+    line-height: 103px;
+    overflow: hidden;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+             
+.nav>li>a {
+    font-size: 30px;
+    display: block;
+    font-family: 'Fredoka One', cursive;
+    color: #fff;
+    text-shadow:
+        -2px 0 0 #27358A,
+        2px 0 0 #27358A,
+        0 -2px 0 #27358A,
+        0 2px 0 #27358A;
+    position: relative;
+    z-index: 100;
+}
+
+
+
+.nav a:hover {
+    color: #27358A;
+    text-shadow:
+        -2px 0 0 #fff,
+        2px 0 0 #fff,
+        0 -2px 0 #fff,
+        0 2px 0 #fff;
+
+}
+
+.sub {
+min-width: 1320px;
+    background: url(../images/sub.png) no-repeat top center;
+    font-family: 'yg-jalnan';
+    left: 0;
+    top: 0;
+    z-index: 99;
+    position: absolute;
+    height: 591px;
+    display: none;
+    width: 100%;
+
+
+}
+
+.sub div {
+    width: 1320px;
+    margin: 130px auto 0;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub div ul:nth-child(1) {
+    width: 109.3px;
+
+}
+
+.sub div ul:nth-child(2) {
+    width: 88.64px;
+}
+
+.sub div ul:nth-child(3) {
+    width: 174px;
+    height: 300px;
+}
+
+.sub div ul:nth-child(4) {
+    width: 107.45px;
+
+}
+
+.sub div ul:nth-child(5) {
+    width: 110.31px;
+ 
+}
+
+.sub ul {
+    line-height: 80px;
+    text-align: center;
+
+}
+
+.sub div a {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+        -2px 0 0 #27358A,
+        2px 0 0 #27358A,
+        0 -2px 0 #27358A,
+        0 2px 0 #27358A;
+
+}
+
+
+/*sub끝*/
+
+
+/* 탑 버튼 */
+.top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    z-index: 100;
+}
+
+/* 메인배너 */
+.mb0 {
+    width: 100%;
+    height: auto;
+    
+
+}
+
+.donut {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+/* 메인배너 끝 */
+
+.line {
+    margin: 300px 0;
+}
+
+.marquee {
+    background-color: #ea6097;
+    /* border-top: 5px solid #ea6097;
+    border-bottom: 5px solid #ea6097; */
+    height: 72px;
+    padding: 20px 0;
+    overflow: hidden;
+    position: relative;
+    margin: 25px 0;
+}
+
+.marquee2 {
+    border-top: 5px solid #ea6097;
+    border-bottom: 5px solid #ea6097;
+    height: 72px;
+    padding: 20px 0;
+    overflow: hidden;
+    position: relative;
+    margin: 25px 0;
+}
+
+.marquee div {
+    width: 200%;
+    height: 72px;
+    background: url(../images/main_line_1.png) repeat-x;
+    padding-right: 50px;
+    position: absolute;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+.marquee2 div {
+    width: 200%;
+    height: 72px;
+    background: url(../images/main_line_2.png) repeat-x;
+    position: absolute;
+    animation: marquee2 10s linear infinite;
+}
+
+@keyframes marquee2 {
+    0% {
+        right: 0;
+    }
+
+    100% {
+        right: -100%;
+    }
+}
+
+/* 띠 애니메이션 끝 */
+
+.mm video {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.news {
+    width: 1320px;
+    height: 1800px;
+    margin: 350px auto 100px;
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    text-shadow: 0 10px 0 #27358a;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+  
+
+}
+
+.news h2 {
+    font-size: 70px;
+    color: #ea6097;
+    margin-bottom: 50px;
+    margin-left: -200px;
+
+}
+
+.news h1 {
+    font-size: 100px;
+    color: #50b3d7;
+}
+
+.news ul {
+    margin-top: 100px;
+    float: right;
+}
+
+.news li {
+    float: left;
+    padding-left: 23px;
+}
+
+
+.news img {
+    display: block;
+    transition: all 0.5s;
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+.news li a:hover img {
+    transform: scale(1.05, 1.05);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.news ul:nth-child(4) {
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+.news ul:nth-child(5) {
+    position: absolute;
+    top: 32%;
+    right: 10%;
+}
+
+.news ul:nth-child(6) {
+    position: absolute;
+    top: 43.5%;
+    left: 17%;
+}
+
+.n_mundi {
+    position: absolute;
+    top: 39%;
+    left: 31%;
+    z-index: -10;
+}
+
+.family {
+    background: url(../images/main_family.jpg) no-repeat center;
+    width: 100%;
+    margin: 0 auto;
+    height: 385px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 250px;
+}
+
+.family h2 {
+    margin-bottom: 35px;
+    font-size: 35px;
+}
+
+.family h1 {
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+span {
+    font-size: 55px;
+    color: #f8e29c;
+
+}
+
+.fam_mundi img:nth-child(1) {
+    position: absolute;
+    left: 50%;
+    margin-left: -660px;
+    bottom: 0;
+    margin-bottom: 125px;
+    z-index: 99;
+    overflow: visible;
+}
+
+.fam_mundi img:nth-child(2) {
+    position: absolute;
+    left: 50%;
+    margin-left: -640px;
+    margin-bottom: 125px;
+    bottom: 0;
+    opacity: 0.5;
+    overflow: visible;
+}
+
+.fam_mundi img:nth-child(3) {
+    position: absolute;
+    left: 30%;
+    bottom: 13%;
+    z-index: 99;
+}
+
+.fam_text {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-family: 'Cafe24Ssurround';
+    text-shadow: 5px 5px #ca3973;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -85px;
+    margin-left: -450px;
+}
+
+
+/* 고패밀리 버블 */
+.go a {
+    text-shadow: none;
+    color: #fff;
+    font-family: 'Cafe24Ssurround';
+
+    font-size: 21px;
+    display: inline-block;
+    background-color: #ca3973;
+    /* border: 2px solid #fffbef; */
+    padding: 20px;
+    border-radius: 50px;
+    position: relative;
+    /*버블의 기준*/
+    overflow: hidden;
+    /*버튼 밖에 요소 안보이게 만들어줌*/
+    transition: color 0.7s;
+    /*글자색 서서히 변화되게 만들기*/
+}
+
+/*버블만들기*/
+.go a span {
+    display: inline-block;
+    width: 25%;
+    /*100% 나누기 버블 갯수 만큼*/
+    height: 100%;
+    background-color: #fffbef;
+    position: absolute;
+    top: 110%;
+    border-radius: 50%;
+    /*원형으로 만들기*/
+    transition: all 0.5s;
+    /*서서히 변하게 만들기*/
+    /* z-index: -1; */
+    /*글자 뒤로 버블 보내기*/
+
+}
+.go strong {
+    z-index: 3;
+    position: relative;
+}
+.go a span:nth-child(2) {
+    left: 0;
+    transition-delay: 0s;
+    /*트랜지션 딜레이*/
+}
+
+.go a span:nth-child(3) {
+    left: 30%;
+    transition-delay: 0.1s;
+}
+
+.go a span:nth-child(4) {
+    left: 60%;
+    transition-delay: 0.2s;
+}
+
+.go a span:nth-child(5) {
+    left: 90%;
+    transition-delay: 0.3s;
+}
+
+/*호버효과*/
+.go a:hover {
+    color: #ca3973;
+    /*글자색 바꾸기*/
+      /* z-index: 5; */
+    /*임시*/
+}
+
+.go a:hover span {
+    transform: scale(1.6, 1.6);
+    top: 0;
+}
+
+/* 고패밀리 버블 끝 */
+
+/* 다이브인 패밀리 이벤트 안내 배너 끝 */
+
+
+
+
+/* footr */
+
+/*footer 웨이브*/
+@keyframes wave1 {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-500px);
+    }
+}
+
+@keyframes wave2 {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-500px);
+    }
+}
+
+.wa {
+    animation: wave1 3s linear infinite alternate;
+}
+
+.wb {
+    animation: wave2 5s linear infinite alternate;
+}
+
+
+/*footer wave 끝*/
+footer {
+    padding-top: 300px;
+    position: relative;
+    background-color: #fffbef;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+footer svg {
+    position: absolute;
+    bottom: 0;
+    width: 150%;
+}
+
+#footer {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    height: 450px;
+}
+
+.ani {
+    position: absolute;
+}
+
+.footer_right {
+    position: absolute;
+    height: 240px;
+    left: 53%;
+    text-align: right;
+
+}
+
+.sns {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.sns li {
+    float: left;
+    padding-left: 10px;
+    position: relative;
+}
+
+
+.sns a {
+    text-align: right;
+}
+
+.sns li img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.sns li:hover .hover {
+    opacity: 1;
+}
+
+.sns li:hover img:nth-child(1) {
+    opacity: 0;
+}

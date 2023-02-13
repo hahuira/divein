@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0;}
+/*버튼 꾸미기*/
+.go a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Cafe24Ssurround';
+    font-weight: bold;
+    font-size: 21px;
+    border: 2px solid #333;
+    display: inline-block;
+    margin: 50px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    position: relative;/*버블의 기준*/
+    overflow: hidden;/*버튼 밖에 요소 안보이게 만들어줌*/
+    transition: color 0.7s;/*글자색 서서히 변화되게 만들기*/
+}
+
+/*버블만들기*/
+.go  a span{
+    display: inline-block;
+    width: 25%;/*100% 나누기 버블 갯수 만큼*/
+    height: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 110%;
+    border-radius: 50%;/*원형으로 만들기*/
+    transition: all 0.7s;/*서서히 변하게 만들기*/
+    z-index: -1;/*글자 뒤로 버블 보내기*/
+}
+.go a span:nth-child(1){
+    left: 0;
+    transition-delay: 0s;/*트랜지션 딜레이*/
+}
+.go  a span:nth-child(2){
+    left: 30%;
+    transition-delay: 0.1s;
+}
+.go a span:nth-child(3){
+    left: 60%;
+    transition-delay: 0.2s;
+}
+.go a span:nth-child(4){
+    left: 90%;
+    transition-delay: 0.3s;
+}
+
+/*호버효과*/
+.go  a:hover{
+    color: #fff;/*글자색 바꾸기*/
+}
+.go  a:hover span{
+    transform: scale(1.6, 1.6);
+    top: 0;
+}

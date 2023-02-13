@@ -1,0 +1,103 @@
+
+
+
+
+
+
+
+
+@keyframes float1 {
+    0%{transform: translate(20px, 10px)}
+    50%{transform: translate(0, 0)}
+    100%{transform: translate(20px, 10px)}
+    
+}
+
+.triangle-float1 {
+    animation: float1 4s infinite;
+    position: absolute;
+    bottom: 25%;
+}
+
+@keyframes float2 {
+    0%{transform: translate(0, 0)}
+    50%{transform: translate(10px, -20px)}
+    100%{transform: translate(0, 0)}
+}
+
+.triangle-float2 {
+    animation: float2 7s infinite;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+}
+
+@keyframes float3 {
+    0%{transform: translate(0, 0)}
+    50%{transform: translate(20px, -10px)}
+    100%{transform: translate(0, 0)}
+}
+
+.triangle-float3 {
+    animation: float3 5s infinite;
+    position: absolute;
+    left: 80%;
+    bottom: 5%;
+}
+
+@keyframes float4 {
+    0%{transform: translate(0, 0)}
+    50%{transform: translate(10px, 30px)}
+    100%{transform: translate(0, 0)}
+}
+
+.triangle-float4 {
+    animation: float4 10s infinite;
+    position: absolute;
+    left: 50%;
+    bottom: 30%;
+}
+@keyframes float5 {
+    0%{transform: translate(0, 0)}
+    50%{transform: translate(0, -30px)}
+    100%{transform: translate(0, 0)}
+}
+
+.triangle-float5 {
+    animation: float5 3s infinite;
+    position: absolute;
+    left: 75%;
+    bottom: 25%;
+}
+
+@keyframes float6 {
+    0%{transform: translate(0, 10px)}
+    50%{transform: translate(0, 0)}
+    100%{transform: translate(0, 10px)}
+}
+
+.triangle-float6 {
+    animation: float6 4s infinite;
+    position: absolute;
+    left: 35%;
+    bottom: 10%;
+}
+
+ @keyframes float7 {
+    0%{transform: rotate(20deg)}
+    50%{transform:rotate(0)}
+    100%{transform: rotate(20deg)}
+} 
+
+
+.icon {
+    animation: float7 6s infinite;
+    position: absolute;
+    left: 30%;
+    bottom: 20%;
+}
+
+
+
+
+

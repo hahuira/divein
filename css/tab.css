@@ -1,0 +1,204 @@
+
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 탭메뉴 꾸미기 */
+.tab {
+  width: 1320px;
+  margin: 0 auto;
+  overflow: hidden;
+
+
+
+}
+
+.tabnav {
+  width: 924px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.tabnav li {
+  float: left;
+}
+
+.tabnav li:nth-child(1) a {
+  background: url(../images/tab_family.png) no-repeat 0 10px;
+}
+
+.tabnav li:nth-child(2) a {
+  background: url(../images/tab_vip.png)no-repeat 0 10px;
+}
+
+.tabnav li:nth-child(3) a {
+  background: url(../images/tab_vvip.png) no-repeat 0 10px;
+}
+
+.tabnav li a {
+  display: block;
+
+  width: 308px;
+  height: 316px;
+  padding-top: 30px;
+  position: relative;
+  transition: background-position 0.5s;
+
+}
+
+/* 탭메뉴 클릭했을 때 변화 꾸미기 */
+
+
+.tabnav li:nth-child(1) a:hover,
+.tabnav li:nth-child(1) a.active {
+  background: url(../images/tab_family_hover.png)no-repeat 0 0;
+}
+
+.tabnav li:nth-child(2) a:hover,
+.tabnav li:nth-child(2) a.active {
+  background: url(../images/tab_vip_hover.png) no-repeat 0 0;
+}
+
+.tabnav li:nth-child(3) a:hover,
+.tabnav li:nth-child(3) a.active {
+  background: url(../images/tab_vvip_hover.png) no-repeat 0 0;
+}
+
+/* 탭컨테츠 꾸미기 */
+.tabcontent {
+  padding: 20px;
+
+  border-radius: 80px 80px 80px 80px;
+  background-color: #fff;
+  position: relative;
+  top: -180px;
+
+  font-family: 'LINESeedKR-Bd';
+}
+
+#tab01 {
+ 
+  text-align: center;
+  height: 1900px;
+
+}
+
+#tab02,
+#tab03 {
+  
+  text-align: center;
+  height: 2500px;
+
+}
+
+
+.ben1,
+.ben2,
+.ben3,
+.ben4 {
+  position: relative;
+  padding: 80px 0;
+}
+
+#tab01,
+#tab02,
+#tab03 h2 {
+  color: #ca3973;
+  font-weight: bold;
+
+
+}
+
+.zoom_bounce2 {
+  position: absolute;
+  margin-top: -220px;
+  left: 50%;
+  margin-left: -109.5px;
+  
+}
+
+.zoom_bounce1_left { 
+  position: absolute;
+  margin-top: -220px;
+  left: 44%;
+  margin-left: -109.5px;
+
+  
+
+}
+
+
+
+.fade_left {
+  
+
+  position: absolute;
+  margin-top: -280px;
+  left: 60%;
+  margin-left: -109.5px;
+}
+@keyframes float8 {
+  0%{transform: rotate(-5deg)}
+    50%{transform: rotate(0deg)}
+    100%{transform: rotate(-5deg)}
+ 
+} 
+.ben3_pic2 {
+  animation: float8 3s infinite;
+}
+
+.ben4_pic2 {
+  position: absolute;
+  left: 35%;
+  bottom: 20%;
+ 
+}
+.ben4_pic3 { position: absolute;
+right: 38%;
+
+  bottom: 15%;
+}
+
+.fade_down {
+  position: absolute;
+  margin-top: -330px;
+  left: 45%;
+  margin-left: -109.5px;
+
+}
+
+
+b {
+  
+  font-size: 20px;
+  background-color: #f8cadc;
+  padding: 5px 5px 3px;
+  border-radius: 10px;
+}
+p { font-size: 16px;}
+h4 { color: #ca3973;
+font-weight: bold;
+font-family: 'LINESeedKR-Bd';
+}
+
+h5 {   font-family: 'LINESeedKR-Bd';
+
+color: #dba4ba;
+}
+

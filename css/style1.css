@@ -1,0 +1,885 @@
+/*여기어때잘난체*/
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'RixInooAriDuriR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+    color: #27358A;
+    cursor: url(../images/cur-37.png), auto;
+}
+
+
+
+body {
+    font-family: 'LINESeedKR-Bd';
+    font-size: 14px;
+    line-height: 24px;
+
+    min-width: 1320px;
+
+    cursor: url(../images/cur-36.png), auto;
+
+}
+
+.po {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+header {
+    width: 1320px;
+    margin: 10px auto;
+    height: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+#header {
+
+    float: right;
+   
+
+}
+
+#header li {
+    float: left;
+    color: #fff6f9;
+}
+
+#header a {
+    font-size: 15px;
+    font-family: 'Fredoka One', cursive;
+    color: #fff6f9;
+}
+
+#header a:hover {
+    color: #27358A
+}
+
+#nav {
+    width: 1320px;
+    margin: 0 auto;
+    height: 130px;
+}
+.nav li:nth-child(3):hover img {
+    transform: rotateY(360deg);
+}
+
+.nav li:nth-child(3) img {
+    transition: all 1s;
+}
+
+.nav {
+    line-height: 103px;
+    overflow: hidden;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+             
+.nav>li>a {
+    font-size: 30px;
+    display: block;
+    font-family: 'Fredoka One', cursive;
+    color: #fff;
+    text-shadow:
+        -2px 0 0 #27358A,
+        2px 0 0 #27358A,
+        0 -2px 0 #27358A,
+        0 2px 0 #27358A;
+    position: relative;
+    z-index: 100;
+}
+
+
+
+.nav a:hover {
+    color: #27358A;
+    text-shadow:
+        -2px 0 0 #fff,
+        2px 0 0 #fff,
+        0 -2px 0 #fff,
+        0 2px 0 #fff;
+
+}
+
+.sub {
+min-width: 1320px;
+    background: url(../images/sub.png) no-repeat top center;
+    font-family: 'yg-jalnan';
+    left: 0;
+    top: 0;
+    z-index: 99;
+    position: absolute;
+    height: 591px;
+    display: none;
+    width: 100%;
+
+
+}
+
+.sub div {
+    width: 1320px;
+    margin: 130px auto 0;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub div ul:nth-child(1) {
+    width: 109.3px;
+
+}
+
+.sub div ul:nth-child(2) {
+    width: 88.64px;
+}
+
+.sub div ul:nth-child(3) {
+    width: 174px;
+    height: 300px;
+}
+
+.sub div ul:nth-child(4) {
+    width: 107.45px;
+
+}
+
+.sub div ul:nth-child(5) {
+    width: 110.31px;
+ 
+}
+
+.sub ul {
+    line-height: 80px;
+    text-align: center;
+
+}
+
+
+.sub div a {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+        -2px 0 0 #27358A,
+        2px 0 0 #27358A,
+        0 -2px 0 #27358A,
+        0 2px 0 #27358A;
+
+}
+
+
+/*sub끝*/
+
+
+/* 탑 버튼 */
+.top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    z-index: 100;
+}
+
+/* 메인배너 */
+/* #mb2 {position: fixed;
+    
+}   */
+#mb1 {
+
+    position: relative;
+   
+}
+
+.mb1 {
+
+    width: 100%;
+    height: 937px;
+    background: url(../images/weare.jpg) no-repeat center top;
+    background-size: cover;
+
+
+}
+
+.weare {
+    font-family: 'RixInooAriDuriR';
+    font-weight: 100;
+    text-shadow: 0 10px 0 #e73986;
+
+}
+
+.weare h2 {
+    font-size: 80px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    margin-bottom: 60px
+}
+
+.weare h1 {
+    font-size: 126.3px;
+    color: #fffbef;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    margin-bottom: -45px;
+
+}
+
+/* 메인배너 끝 */
+
+#con {
+    background-color: #f8e7f9;
+    overflow: hidden;
+
+}
+
+.con1 {
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.con1 h1 {
+    font-size: 60px;
+    color: #ca3973;
+    text-shadow: 0 8px 0 #e9baec;
+    font-family: 'Fredoka One', cursive;
+    padding: 100px 0 30px;
+}
+
+.con1 h3 {
+    font-size: 25px;
+    color: #262b4b;
+}
+
+.con1 p {
+    padding-top: 50px;
+    color: #262b4b;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+/* con1 끝 */
+
+/* con2 */
+.con2 {
+    width: 1320px;
+    margin: 0 auto;
+    height: 2200px;
+    text-align: center;
+    
+
+}
+
+
+.d3 {
+    position: relative;
+    z-index: 99;
+    mix-blend-mode:plus-lighter;
+    opacity: 0.5;
+}
+
+.d3 h2:nth-child(1) {
+    padding-top: 30px;
+    right: 0;
+    margin-right: 50px;
+}
+
+.d3 h2:nth-child(2) {
+    padding-top: 630px;
+    left: 0;
+    margin-left: 50px;
+}
+
+.d3 h2:nth-child(3) {
+    padding-top: 1260px;
+    right: 0;
+    margin-right: 50px;
+}
+
+.d3 h2 {
+    font-size: 300px;
+    font-family: 'Fredoka One', cursive;
+    color: transparent;
+
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.3);
+    margin: 100px 0;
+
+    position: absolute;
+}
+
+
+.con2 h3 {
+    font-size: 30px;
+    font-family: 'Cafe24Ssurround';
+    color: #ca3973;
+    text-shadow: none;
+
+}
+
+.con2 ul {
+    margin-top: 200px;
+    
+}
+
+.con2 .left {
+    float: left;
+
+}
+
+.con2 .right {
+    float: right;
+}
+
+
+.con2 .text {
+    height: 378px;
+    width: 700px;
+    text-align: center;
+    padding-top: 247.5px;
+
+}
+
+.con2 p {
+    color: #262b4b;
+    font-size: 18px;
+    margin-top: 20px;
+
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+/* con2 끝 */
+/* 띠애니메이션 */
+.marquee {
+
+    background-color: #ea6097;
+    height: 38px;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.marquee div {
+    width: 200%;
+    height: 38px;
+    background: url(../images/about_line.png) repeat-x;
+    position: absolute;
+    animation: marquee 7s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+
+/* 띠 애니메이션 끝 */
+
+
+/* con3 */
+#con3 {
+    background-color: #f8e7f9;
+    padding-top: 300px;
+}
+
+.con3 {
+    width: 1320px;
+    background-color: #fff;
+    margin: 0 auto;
+    height: 1820px;
+    border-radius: 120px;
+    padding-top: 200px;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.logo h1 {
+    color: #ca3973;
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 0 10px 0 #fdd8ff;
+    padding-bottom: 40px;
+}
+
+.logo1 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -286px;
+    margin-top: 350px;
+
+}
+
+.logo1 li {
+    float: left;
+    padding-right: 50px;
+    height: 83px;
+}
+
+.logo1 li:nth-child(2),
+.logo1 li:nth-child(4) {
+
+    margin-top: 15px;
+}
+
+.logo1 li:nth-child(5) {
+    padding-right: 0;
+    margin-top: -15px;
+}
+
+.logo2 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -488px;
+    margin-top: 500px;
+
+}
+
+.logo2 li {
+    float: left;
+    padding-right: 60px;
+    height: 83px;
+    transition: all 0.2s;
+}
+
+.logo2 li:nth-child(3) {
+    padding-right: 0;
+    margin-top: 5px;
+}
+
+.logo2 li:hover {
+    transform: scale(1.05);
+
+}
+
+.cir {
+    width: 450px;
+    height: 450px;
+    margin-left: 435px;
+    margin-top: 110px;
+    border-radius: 500px;
+    background-color: #bee6f8;
+}
+
+.cha {
+    width: 1320px;
+    margin: 0 auto;
+    height: 1000px;
+    position: relative;
+}
+
+.cha>img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -251.5px;
+    margin-bottom: 350px;
+    transition: all 0.5s;
+
+}
+
+.cha img:hover {
+    transform: scale(1.2);
+
+}
+
+.cha h1 {
+    margin-top: 800px;
+    color: #ca3973;
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 0 10px 0 #fdd8ff;
+    padding-bottom: 40px;
+}
+
+.logo p,
+.cha p {
+    font-size: 15px;
+    color: #262b4b;
+
+}
+
+/* 먼디 설명 */
+
+.mundi_ex li {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.mundi_ex .left li {
+    float: right;
+
+}
+
+.mundi_ex .right li {
+    float: left;
+}
+
+.m1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    margin-left: 150px;
+    margin-top: 130px;
+}
+
+.m1 b {
+    color: #f1a731;
+}
+
+.m2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    margin-left: 180px;
+    margin-top: 230px;
+}
+
+.m2 b {
+    color: #d33ed1;
+}
+
+.m3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+    margin-left: 130px;
+    margin-top: 330px;
+}
+
+.m3 b {
+    color: #f26522;
+}
+
+.m4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+    margin-right: 60px;
+    margin-top: 230px;
+}
+
+.m4 b {
+    color: #ef429e;
+}
+
+.m5 b {
+    color: #0dca8a;
+}
+
+.m5 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+    margin-right: 100px;
+    margin-top: 330px;
+}
+
+.m6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+    margin-right: 150px;
+    margin-top: 430px;
+}
+
+.m6 b {
+    color: #0c56de;
+}
+
+.m7 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: left;
+    margin-right: 50px;
+    margin-top: 530px;
+}
+
+.m7 b {
+    color: #249ec6;
+}
+
+.mundi_ex p {
+    font-size: 20px;
+}
+
+.mundi_ex b {
+    font-size: 25px;
+    font-family: 'Cafe24Ssurround';
+}
+
+.enfj {
+    position: absolute;
+    left: 0;
+    margin-left: 120px;
+    bottom: 50%;
+    margin-bottom: 15px;
+}
+
+.enfj li {
+    float: left;
+    font-size: 70px;
+    font-family: 'RixInooAriDuriR';
+}
+
+.enfj li:nth-child(1) {
+    color: #e62488;
+}
+
+.enfj li:nth-child(2) {
+    color: #2b6cc4;
+}
+
+.enfj li:nth-child(3) {
+    color: #fcaa34;
+}
+
+.enfj li:nth-child(4) {
+    color: #219c61;
+}
+
+.mbti .left {
+    text-align: right;
+    position: absolute;
+    left: 0;
+    margin-left: 70px;
+    bottom: 50%;
+    margin-bottom: -120px;
+    font-size: 16px;
+    color: #262b4b;
+    
+}
+
+.mbti .right {
+    text-align: right;
+    position: absolute;
+    left: 0;
+    margin-left: 310px;
+    bottom: 50%;
+    margin-bottom: -120px;
+    font-size: 16px;
+    color: #262b4b;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: 125px;
+    margin-top: 18px;
+}
+
+.center li {
+    width: 170px;
+    height: 8px;
+    background-color: #fff6f9;
+    border: 1.5px solid #dd4171;
+    border-radius: 50px;
+    margin: 13px 0;
+}
+.ring {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: 125px;
+    margin-top: 19px;
+}
+
+.ring li {
+    width: 5px;
+    height: 5px;
+    background-color: #fff6f9;
+    border: 6px solid #dd4171;
+    border-radius: 50px;
+    margin: 7.5px 0;
+}
+.ring li:nth-child(1) {
+    margin-left: 150px;
+}
+.ring li:nth-child(2) {
+    margin-left: 130px;
+}
+.ring li:nth-child(3) {
+    margin-left: 140px;
+}
+.ring li:nth-child(4) {
+    margin-left: 30px;
+    margin-top: -1px;
+}
+/* 먼디 설명 끝 */
+/* con3 끝 */
+
+/* footr */
+
+/*footer 웨이브*/
+@keyframes wave1 {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-500px);
+    }
+}
+
+@keyframes wave2 {
+    0% {
+        transform: translate(0);
+    }
+
+    100% {
+        transform: translate(-500px);
+    }
+}
+
+.wa {
+    animation: wave1 3s linear infinite alternate;
+}
+
+.wb {
+    animation: wave2 5s linear infinite alternate;
+}
+
+
+/*footer wave 끝*/
+footer {
+    padding-top: 300px;
+    position: relative;
+    background-color: #f8e7f9;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+footer svg {
+    position: absolute;
+    bottom: 0;
+    width: 150%;
+}
+
+#footer {
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+    height: 450px;
+}
+
+.footer_right p {
+
+    color: #27358A;
+
+}
+
+.ani {
+    position: absolute;
+}
+
+.footer_right {
+    position: absolute;
+    height: 240px;
+    left: 53%;
+    text-align: right;
+
+}
+
+.sns {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.sns li {
+    float: left;
+    padding-left: 10px;
+    position: relative;
+}
+
+
+.sns a {
+    text-align: right;
+}
+
+.sns li img:nth-child(2) {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.sns li:hover .hover {
+    opacity: 1;
+}
+
+.sns li:hover img:nth-child(1) {
+    opacity: 0;
+}

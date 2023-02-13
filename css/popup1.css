@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.popup {
+    width: 400px;
+    text-align: center;
+    font-family: 'LINESeedKR-Bd';
+    position: absolute;
+    z-index: 99;
+     display: none;
+    top: 330px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+
+.popup p {
+    font-size: 16px;
+    color: #262b4b;
+    padding: 10px 0;
+}
+
+.popup h5 {
+    font-size: 15px;
+    color: #262b4b;
+}
+
+.popup h2 {
+    font-family: 'Cafe24Ssurround';
+    
+    text-align: center;
+    font-size: 30px;
+}
+.popup1 h2 {
+    color: #4380ad;
+}
+.popup2 h2 {
+    color: #85893e;
+}
+.popup3 h2 {
+    color: #d88b13;
+}
+.popup4 h2 {
+    color: #d24219;
+}
+.popup5 h2 {
+    color: #47373a;
+}
+.popup6 h2 {
+    color: #b19225;
+}
+.popup7 h2 {
+    color: #d89bae;
+}
+.popup8 h2 {
+    color: #d98680;
+}
+.popup9 h2 {
+    color: #dd4171;
+}
+.popup10 h2 {
+    color: #b30c6c;
+}
+.popup11 h2 {
+    color: #4d2d20;
+}
+.popup12 h2 {
+    color: #5d473e;
+}
